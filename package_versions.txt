@@ -30,7 +30,7 @@ NAME                                                                          VE
 @tufjs/models                                                                 2.0.0                                               npm                         
 @types/cookie                                                                 0.4.1                                               npm                         
 @types/cors                                                                   2.8.17                                              npm                         
-@types/node                                                                   20.12.12                                            npm                         
+@types/node                                                                   20.13.0                                             npm                         
 PyGObject                                                                     3.42.2                                              python                      
 PyJWT                                                                         2.6.0                                               python                      
 abbrev                                                                        2.0.0                                               npm                         
@@ -143,7 +143,8 @@ debconf                                                                       1.
 debian-archive-keyring                                                        2023.3+deb12u1                                      deb                         
 debianutils                                                                   5.7-0.5~deb12u1                                     deb                         
 debug                                                                         2.6.9                                               npm                         
-debug                                                                         4.3.4                                               npm        (+4 duplicates)  
+debug                                                                         4.3.4                                               npm                         
+debug                                                                         4.3.5                                               npm        (+3 duplicates)  
 define-data-property                                                          1.1.4                                               npm                         
 depd                                                                          2.0.0                                               npm                         
 desktop-file-utils                                                            0.26-1                                              deb                         
@@ -653,7 +654,7 @@ libaom3                                                                       3.
 libapparmor1                                                                  3.0.8-3                                             deb                         
 libappstream4                                                                 0.16.1-2                                            deb                         
 libapt-pkg6.0                                                                 2.6.1                                               deb                         
-libarchive13                                                                  3.6.2-1                                             deb                         
+libarchive13                                                                  3.6.2-1+deb12u1                                     deb                         
 libargon2-1                                                                   0~20171227-0.3+deb12u1                              deb                         
 libaribb24-0                                                                  1.0.3-2                                             deb                         
 libasound2                                                                    1.2.8-1+b1                                          deb                         
@@ -820,7 +821,7 @@ libgsl27                                                                      2.
 libgslcblas0                                                                  2.7.1+dfsg-5                                        deb                         
 libgsm1                                                                       1.0.22-1                                            deb                         
 libgssapi-krb5-2                                                              1.20.1-2+deb12u1                                    deb                         
-libgstreamer-plugins-base1.0-0                                                1.22.0-3+deb12u1                                    deb                         
+libgstreamer-plugins-base1.0-0                                                1.22.0-3+deb12u2                                    deb                         
 libgstreamer1.0-0                                                             1.22.0-2                                            deb                         
 libgtk-3-0                                                                    3.24.38-2~deb12u1                                   deb                         
 libgtk-3-common                                                               3.24.38-2~deb12u1                                   deb                         
