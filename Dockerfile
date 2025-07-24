@@ -1,4 +1,4 @@
-FROM ghcr.io/linuxserver/baseimage-kasmvnc:debianbookworm
+FROM ghcr.io/linuxserver/baseimage-selkies:debianbookworm
 
 # set version label
 ARG BUILD_DATE
@@ -13,19 +13,19 @@ ENV TITLE=Calligra
 RUN \
   echo "**** add icon ****" && \
   curl -o \
-    /kclient/public/icon.png \
+    /usr/share/selkies/www/icon.png \
     https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/calligra-logo.png && \
   echo "**** install packages ****" && \
   apt-get update && \
   apt-get install --no-install-recommends -y \
     breeze-icon-theme \
+    caja \
     calligra \
     calligra-data \
     calligraplan \
     calligrastage \
     kexi \
     stterm \
-    thunar \
     tint2 && \
   echo "**** openbox tweaks ****" && \
   sed -i \
