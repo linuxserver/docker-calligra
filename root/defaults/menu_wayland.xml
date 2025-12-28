@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openbox_menu xmlns="http://openbox.org/3.4/menu">
+<menu id="root-menu" label="MENU">
+<item label="Words" icon="/usr/share/icons/hicolor/64x64/apps/calligrawords.png"><action name="Execute"><command>/usr/bin/calligrawords</command></action></item>
+<item label="Sheets" icon="/usr/share/icons/hicolor/64x64/apps/calligrasheets.png"><action name="Execute"><command>/usr/bin/calligrasheets</command></action></item>
+<item label="Stage" icon="/usr/share/icons/hicolor/64x64/apps/calligrastage.png"><action name="Execute"><command>/usr/bin/calligrastage</command></action></item>
+<item label="Graplan" icon="/usr/share/icons/hicolor/64x64/apps/calligraplan.png"><action name="Execute"><command>/usr/bin/calligraplan</command></action></item>
+<item label="kexi-3.2" icon="/usr/share/icons/hicolor/64x64/apps/kexi-3.2.png"><action name="Execute"><command>/usr/bin/kexi-3.2</command></action></item>
+<item label="foot" icon="/usr/share/icons/hicolor/48x48/apps/foot.png"><action name="Execute"><command>/usr/bin/foot</command></action></item>
+<item label="File Manager" icon="/usr/share/icons/breeze/apps/64/system-file-manager.svg"><action name="Execute"><command>/usr/bin/caja</command></action></item>
+</menu>
+</openbox_menu>
