@@ -10,7 +10,11 @@ LABEL build_version="Linuxserver.io version:- ${VERSION} Build-date:- ${BUILD_DA
 LABEL maintainer="thelamer"
 
 # title
-ENV TITLE=Calligra
+ENV TITLE=Calligra \
+    NO_GAMEPAD=true \
+    SELKIES_DESKTOP=true \
+    NO_FULL=true \
+    PIXELFLUX_WAYLAND=true
 
 RUN \
   echo "**** add icon ****" && \
@@ -40,9 +44,25 @@ RUN \
   apt-get autoclean && \
   rm -rf \
     /config/.cache \
+    /tmp/* \
+    /usr/share/applications/caja-autorun-software.desktop \
+    /usr/share/applications/caja-computer.desktop \
+    /usr/share/applications/caja-file-management-properties.desktop \
+    /usr/share/applications/caja-folder-handler.desktop \
+    /usr/share/applications/caja-home.desktop \
+    /usr/share/applications/caja-home.desktop \
+    /usr/share/applications/debian-uxterm.desktop \
+    /usr/share/applications/debian-xterm.desktop \
+    /usr/share/applications/footclient.desktop \
+    /usr/share/applications/foot-server.desktop \
+    /usr/share/applications/mate-about.desktop \
+    /usr/share/applications/mate-color-select.desktop \
+    /usr/share/applications/mate-network-scheme.desktop \
+    /usr/share/applications/st.desktop \
+    /usr/share/applications/tint2conf.desktop \
+    /usr/share/applications/tint2.desktop \
     /var/lib/apt/lists/* \
-    /var/tmp/* \
-    /tmp/*
+    /var/tmp/*
 
 # add local files
 COPY /root /
