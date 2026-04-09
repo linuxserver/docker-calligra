@@ -1433,7 +1433,7 @@ perl-modules-5.40                                                             5.
 phonon-backend-vlc-common                                                     0.12.0-3                               deb                         
 phonon4qt6                                                                    4:4.12.0-5                             deb                         
 phonon4qt6-backend-vlc                                                        0.12.0-3+b4                            deb                         
-pillow                                                                        12.1.1                                 python                      
+pillow                                                                        12.2.0                                 python                      
 pinentry-curses                                                               1.3.1-2                                deb                         
 pip                                                                           25.1.1                                 python                      
 pixelflux                                                                     1.6.0                                  python                      
