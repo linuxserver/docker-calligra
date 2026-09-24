@@ -31,8 +31,7 @@ RUN \
     calligraplan \
     calligrastage \
     kexi \
-    stterm \
-    tint2 && \
+    stterm && \
   echo "**** openbox tweaks ****" && \
   sed -i \
     's/NLMC/NLIMC/g' \
@@ -59,8 +58,6 @@ RUN \
     /usr/share/applications/mate-color-select.desktop \
     /usr/share/applications/mate-network-scheme.desktop \
     /usr/share/applications/st.desktop \
-    /usr/share/applications/tint2conf.desktop \
-    /usr/share/applications/tint2.desktop \
     /var/lib/apt/lists/* \
     /var/tmp/*
 
@@ -68,6 +65,6 @@ RUN \
 COPY /root /
 
 # ports and volumes
-EXPOSE 3000
+EXPOSE 3001
 
 VOLUME /config
